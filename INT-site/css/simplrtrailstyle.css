@@ -1,0 +1,192 @@
+body {
+  margin: 0 0 0 0;
+  text-align: center;
+}
+
+/********navbar*********/
+.navbar {
+  font-size: 1.15rem;
+  font-family: Helvetica, Sans-Serif;
+  height: 60px;
+  background-color: #C68B59;
+}
+
+
+
+
+.explain-nav{
+  font-size: 1.2rem;
+}
+
+b{
+  color: #E8F0F2;
+  font-size: 0.9rem;
+}
+
+
+
+
+/*******title*****/
+.title {
+  padding-top: 10%;
+  font-size: 7rem;
+  font-style: italic;
+  font-family: Helvetica, Sans-Serif;
+  color: #D7B19D;
+}
+
+.title-container {
+  padding: 7% 5%;
+  background-color: #865439;
+  text-align: center;
+}
+
+.animation {
+  animation-iteration-count: infinite;
+  animation-name: logo;
+  animation-duration: 4s;
+}
+
+.circul-title {
+  border-radius: 100%;
+  width: 70%;
+  height: 100%;
+}
+
+@keyframes logo {
+  0% {
+    left: -2%;
+  }
+
+  50% {
+    left: 6%;
+  }
+
+  100% {
+    left: -2%;
+  }
+}
+
+/* main-container */
+.container {
+  text-align: center;
+}
+
+.main {
+  text-align: right;
+}
+
+.carousel {
+  padding: 8% 5%;
+}
+
+img {
+  width: 800px;
+  height: 600px;
+
+}
+
+
+
+.explain {
+  line-height: 1.8;
+  padding-right: 3%;
+  padding-top: 8%;
+  text-align: right;
+  font-size: 1.7rem;
+  font-family: Helvetica, Sans-Serif;
+  color: #402218;
+}
+
+
+ .hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 1rem;
+  width: 10%;
+  color: #D7B19D;
+  margin-bottom: 7%
+}
+
+
+
+/* information */
+
+.devide{
+  padding: 1% 0 7%;
+}
+
+
+.container-info{
+
+  text-align: right;
+  padding:2% 20% 10%;
+  font-size: 1.6rem;
+  font-family: Helvetica, Sans-Serif;
+}
+
+
+.list{
+  display: inline;
+  color: #C68B59;
+  text-decoration: none;
+}
+.list:hover{
+  text-decoration: none;
+  color:gold;
+}
+
+.info_col  {
+  padding: 5%;
+}
+
+
+.b{
+  font-weight: bold;
+  color: #402218;
+
+}
+
+
+
+/* footer */
+
+.icon{
+  height: 2rem;
+  width: 2.2rem;
+}
+
+
+.pad{
+  padding: 1% 0.7%;
+}
+
+
+
+.footer {
+  text-align: center;
+  margin-bottom: 0;
+  padding-top: 1%;
+  height: 3.5rem;
+  background-color: #C68B59;
+}
+
+.contact {
+  padding: 0 2%;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.fff{
+  color:#fff;
+
+}
+
+.fff:hover{
+  color: #FFEAC9;
+  text-decoration: none;
+}
+
+strong{
+  color: #402218;
+}
